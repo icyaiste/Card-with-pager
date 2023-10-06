@@ -42,10 +42,16 @@ p{
  color: #c9a9d5;
 }
 
-ul {
-    transition: background-color 0.5s;
-  }
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
   
 ul:hover {
-    background-color: rgb(237, 163, 229);
+    color: rgb(95, 91, 95);
   }
+
+li{
+    margin-left: 15px;
+}
